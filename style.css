@@ -1,17 +1,84 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
-
-
 .top-container{
-    width: 100%;
+    font-family: 'Roboto Mono', monospace;
 }
+
+
+
+
 .donat-img img{
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
+     width: 100%;
+     width: 100vw;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
   }
+  
+  .text-t{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+   .btn{
+     text-decoration: none;
+     background-color: rgb(245, 92, 53);
+     padding: 10px 20px;
+     color: white;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
     
 
+   }
+    .text-center{
+       text-align: center;
+       font-family: sans-serif;
+       font-size: 30px;
+       font-weight: small;
+
+    }
+    p{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 80%;
+    }
+   .flex-boxes{
+     display: flex;
+     margin: 0px 400px;
+     text-align: center;
+     
+   }
+   .flex-boxes div{
+
+     padding: 7px 20px;
+     margin: 30px 20px ;
+     background-color:#ebeff0;
+     border-radius: 5px;
+   }
+  .Amount-donate{
+    text-align: center;
+    
+  }
+ #text-border{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    color: gray;
+    margin-top: 15px;
+    text-align: center;
+    
+ }
+ .flex-boxes-plan{
+    display: flex;
+    margin: 10px 20px;
+    
+    padding:  20px;
+ }
+ .color-1{
+    background-color: aliceblue;
+    padding: 10px 20px;
+ 
+ }
+ 
