@@ -1,84 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-body{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  ;
 }
-.top-container{
-    font-family: 'Roboto Mono', monospace;
+
+
+/* header seaction started */
+.container {
+  text-align: center;
+  background-image: url(/img/donation3.jpg);
+  background-repeat: no-repeat;
+  margin: -8px;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 600px;
+
 }
 
+.Top-Header h1 {
 
+  color: rgb(248, 238, 238);
+  font-size: 50px;
+  font-weight: 700;
+   font-family: 'Poppins', sans-serif;;
 
+}
 
-.donat-img img{
-     width: 100%;
-     width: 100vw;
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-  }
+.Top-Header p {
+  font-size: 25px;
+  color: rgb(255, 253, 253);
+  padding-bottom: 40px;
+  font-weight: 600;
+ 
   
-  .text-t{
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  
-   .btn{
-     text-decoration: none;
-     background-color: rgb(245, 92, 53);
-     padding: 10px 20px;
-     color: white;
-     font-weight: bold;
-     font-family: Arial, Helvetica, sans-serif;
-    
 
-   }
-    .text-center{
-       text-align: center;
-       font-family: sans-serif;
-       font-size: 30px;
-       font-weight: small;
+}
 
-    }
-    p{
-        color: gray;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 100;
-        font-size: 80%;
-    }
-   .flex-boxes{
-     display: flex;
-     margin: 0px 400px;
-     text-align: center;
-     
-   }
-   .flex-boxes div{
+.Top-Header {
+  margin: -67px;
+  padding: 70px;
+}
 
-     padding: 7px 20px;
-     margin: 30px 20px ;
-     background-color:#ebeff0;
-     border-radius: 5px;
-   }
-  .Amount-donate{
-    text-align: center;
-    
-  }
- #text-border{
-    border-bottom: 1px solid rgb(228, 228, 228);
-    color: gray;
-    margin-top: 15px;
-    text-align: center;
-    
- }
- .flex-boxes-plan{
+.Top-Header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 40px;
+  background-color: #ff5f20;
+  border-radius: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header seaction end */
+
+
+/* Main section started */
+.flex-container {
+  display: flex;
+  margin: 10px 246px;
+  padding: 10px 20px;
+}
+
+.flex-container h1 {
+  margin: 10px 6%;
+  background-color: #f3f9ff;
+  padding: 13px 13px;
+  border: 1px solid cornflowerblue;
+  border-radius: 15px;
+}
+
+.input-text {
+  align-items: center;
+}
+
+.input-text input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-left: 48%;
+
+
+
+}
+
+.btn {
+  margin: 24px;
+}
+
+.btn a {
+  color: #f3f9ff;
+  text-decoration: none;
+  background-color: #ff5f20;
+  margin-left: 48%;
+  padding: 10px 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.card-container {
+
+  display: flex;
+  margin: 29px 349px;
+  padding: 24px 4px;
+  font-size: 12px;
+  text-align: left;
+
+}
+
+.Card-1 {
+  background-color: #bfdeff;
+  padding: 28px 77px;
+  margin: -25px 20px;
+}
+
+.Card-2 {
+  background-color: #f9dbd0;
+  padding: 28px 77px;
+  margin: -25px 20px;
+}
+
+.Card-3 {
+  background-color: #eff7cd;
+  padding: 28px 77px;
+  margin: -25px 20px;
+
+}
+
+.text-box h1 {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-box p {
+  font-size: smaller;
+  margin: 50px;
+}
+ /* main seaction end */
+
+  /* secation start  */
+  .flexible-continer{
     display: flex;
-    margin: 10px 20px;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
     
-    padding:  20px;
+
+    
+}
+.Link-button{
+    text-decoration: none;
+    color: white;
+     padding: 10px 40px ;
+     border-radius: 5px;
+     font-weight: 600;
+     background-color: #ff5f20;
+}
+.top-banner{
+  
+    background-repeat: no-repeat;
+}
+.dream-big{
+  
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ .sub-btn{
+  margin: 8px 35%;
+  background-color: #eff7cd;
+  padding: 24px 25px;
+  text-align: center;
+}
+ .emailbtn{
+  padding: 13px 52px;
+  margin-left: -10px;
+  background-color: red;
  }
- .color-1{
-    background-color: aliceblue;
-    padding: 10px 20px;
- 
- }
- 
+
+.ftr{
+  background-color: black;
+  padding: 16px;
+  color: white;
+}
+.ftr{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+.ftr p{
+   font-size: smaller;
+   font-weight: 100;
+   font-style: italic;
+
+}
