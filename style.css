@@ -62,7 +62,7 @@ body {
 /* Main section started */
 .flex-container {
   display: flex;
- margin-left: 6%;
+  margin: 0 15%;
 
 
 }
@@ -120,13 +120,13 @@ body {
 .Card-1 {
   background-color: #bfdeff;
   padding: 33px 37px;
-margin: 2vh 1vh;
+  margin: 2vh 1vh;
 }
 
 
 .Card-2 {
   background-color: #f9dbd0;
- 
+
   padding: 33px 37px;
   margin: 2vh 1vh;
 }
@@ -135,7 +135,7 @@ margin: 2vh 1vh;
 .Card-3 {
   background-color: #eff7cd;
   padding: 33px 37px;
-margin: 2vh 1vh;
+  margin: 2vh 1vh;
 }
 
 .text-box h1 {
