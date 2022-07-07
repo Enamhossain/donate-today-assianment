@@ -11,7 +11,7 @@ body {
 /* header seaction started */
 .container {
   text-align: center;
-  background-image: url(/img/donation-pic-3.jpg);
+  background-image: url(./Images/donation-pic-3.jpg);
   background-repeat: no-repeat;
   margin: -8px;
   background-size: cover;
